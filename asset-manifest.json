@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pet-hp/static/css/main.c6f4546e.css",
+    "main.js": "/pet-hp/static/js/main.274f0ff6.js",
+    "static/js/787.42b8e1fc.chunk.js": "/pet-hp/static/js/787.42b8e1fc.chunk.js",
+    "static/media/Roboto-Light.ttf": "/pet-hp/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "index.html": "/pet-hp/index.html",
+    "main.c6f4546e.css.map": "/pet-hp/static/css/main.c6f4546e.css.map",
+    "main.274f0ff6.js.map": "/pet-hp/static/js/main.274f0ff6.js.map",
+    "787.42b8e1fc.chunk.js.map": "/pet-hp/static/js/787.42b8e1fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f4546e.css",
+    "static/js/main.274f0ff6.js"
+  ]
+}
