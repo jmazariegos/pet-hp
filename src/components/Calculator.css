@@ -1,0 +1,125 @@
+/* GENERAL */
+h2 {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    padding: 5px;
+    margin: 5px;
+}
+
+h1, h2, h3 {
+    color: #4a6459;
+}
+
+h4 {
+    color: #6B9080;
+}
+
+input {
+    margin: 10px;
+    padding: 0;
+}
+
+input, select {
+    font-size: 15px;
+}
+
+select, button, label {
+    margin: 5px;
+    padding: 5px;
+}
+
+input, select, button, label {
+    height: 30px;
+    color: #293832;
+}
+
+button {
+    margin: 10px;
+}
+
+/* CALCULATOR */
+#calculator {
+    justify-content: center;
+    background: #EAF4F4;
+}
+
+#info {
+    width: 23%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#general, #classes {
+    width: 33%;
+}
+
+#info > div, #general > div, #classes > div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* INFO */
+#info h3 {
+    width: 40%;
+    height: 30px;
+}
+
+#info input, #info select, #info label {
+    width: 60%;
+    line-height: 30px;
+}
+
+#hours label {
+    width: 40%;
+}
+
+#hours input {
+    width: calc(60% - 75px);
+}
+
+/* GENERAL / CLASS TALLIES */
+#cleric, #paladin, #ranger, #barbarian {
+    display: none;
+}
+
+.tallies input {
+    width: 20%;
+    text-align: center;
+}
+
+button, .tallies label{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.tallies h4 {
+    width: 95%;
+    height: 30px;
+}
+
+/* MOBILE */
+@media (max-width: 1280px){
+    #calculator {
+        display: block;
+    }
+
+    #info {
+        padding-right: 20px;
+    }
+
+    #info, #general, #classes {
+        padding-left: 20px;
+        width: auto;
+    }
+
+    input, select {
+        background-color: #FFFF;
+    }
+
+    button, select, label, input {
+        border-radius: 2px;
+    }
+}

@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './components/Calculator'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return (
+        <div id='app'>
+            <div id='title'>
+                <h1>PET HP CALCULATOR</h1>
+                <a href='https://www.polygon.com/videos/2019/9/9/20849172/unraveled-how-to-calculate-pet-hp-hit-points'>
+                    (using the formula by BDG)
+                </a>
+            </div>
+            <Calculator/>
+        </div>
   );
 }
 
